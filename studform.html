@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="studform.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aquamarine;">
+    <div class="center" style="width: 75%;">
+        <h1>Form</h1>
+        <form method="post" >
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Enter Registration Number</label>
+            </div>
+
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Enter VJTI e-mail id</label>
+            </div>
+            <div class="txt_field">
+                <input type="file" required>
+                <span></span>
+                <label>Upload Admission document</label>
+            </div>
+            <div class="txt_field">
+                <input type="file" required>
+                <span></span>
+                <label>Upload address proof</label>
+            </div>
+
+            <div style="text-align: center;padding-bottom: 25px;">
+            <input type="submit" value="Submit"onclick="submittostatus()" style="width: 40%;">
+        </div>
+            
+
+        </form>
+    </div>
+    <script>
+        function submittostatus() {
+            window.location.assign('http://127.0.0.1:5500/status.html')
+        }
+    </script>
+</body>
+</html>
