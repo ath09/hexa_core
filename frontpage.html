@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+/* .header{
+    margin: 0;
+    padding: 0;
+    background: url(C:\Users\palan\Downloads\logo.png) no-repeat cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+
+} */
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content:space-between;
+    align-items: center;
+    background:aquamarine;
+}
+nav img{
+    width: 100%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero1-btn{
+    display: inline-block;
+    text-decoration:none;
+    color: #000;
+    border: 1px sloid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #fff;
+    positon: relative;
+    cursor: pointer;
+    text
+}
+.hero2-btn{
+    display: inline-block;
+    text-decoration:none;
+    color: #000;
+    border: 1px sloid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #fff;
+    positon: relative;
+    cursor: pointer;
+}
+
+aside {
+    width: 400px;
+    height: 100vh;
+    background: red;
+    position: fixed;
+  
+    color: #fff;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  
+    box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.75)
+  }
+  
+  aside ul {
+    padding-inline-start: 0;
+  }
+  
+  aside ul li {
+    list-style: none;
+    font-size: 18px;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  aside ul li .fas {
+    width: 50px;
+  }
+  
+  .aside-wrapper {
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  
+  .logo-text {
+    font-size: 25px;
+    position: relative;
+  }
+  
+  /* .sidebar-toggle {
+    position: absolute;
+    top: 5px;
+    left: 205px;
+    background: red;
+    padding: 4px 11px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    
+  /* } */
+  .vjti{
+    display: block;
+  }
+  /* input{
+    display: none;
+  } 
+   */
+  input:checked ~ aside {
+    left: -250px;
+  }
+  h1{
+    text-shadow:2px 2px red;
+    color: #000;
+  }
+  #toggler{
+    background-attachment: fixed;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box sizing: border-box;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgrond-color{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+
+}
+.bg-1{
+   
+}
+.bg-2{
+    /* flex: 1;
+    background-color: rgb(164,236,240); */
+}
+.about-container{
+    width: 85%;
+    min-height: 80vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image-container{
+    flex: 1;
+}
+.image-container img{
+    width: 500px;
+    height: 500px;
+
+
+}
+.text-container{
+    padding-bottom: 300px;
+    flex: 1;
+}
+#btn1{
+width: 80px;
+height: 50px;
+text-align: center;
+}
+#btn2{
+width: 80px;
+height: 50px;
+padding-left: 25px;
+text-align: center;
+}
+h2{
+color: #000;
+}
+#ur{
+    padding-top: -25px; 
+}
+.text-box{
+    padding-top: 225px;
+}
+body{
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%,100%;
+}
+.hero1-btn{
+display: inline;
+text-align: center;
+}
+#about{padding-left: 500px;
+    padding-top: 400px;
+}
+#contact{
+    padding-top: 400px;
+    padding-left: 500px;
+    padding-right: 2000px;
+    color: #fff;
+    padding-bottom: 400px;
+
+}
+#vid{
+    padding-top: 40px;
+}
+    </style>
+</head>
+<body>
+    <p style="background-color:aquamarine ;
+    background-attachment: fixed;
+    background-size: cover;"></p>
+    <body background="C:\Users\palan\Downloads\banner.png"></body>
+        
+        <!-- <a href="C:\Users\palan\Downloads\banner.png"></a> -->
+        <section class="header">
+            <nav>
+                <a href="web project.html"><img src="logo.png" height="100px" width="100px"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href=""style="font-size:20px">HOME</a></li> 
+                        <li><a href="#about" style="font-size:20px;padding-top: 200px;" >ABOUT US</a></li>
+                        <li><a href="#contact" style="font-size: 20px;">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div style="color:yellow; background-color:brown; font-size: 20;"><marquee>Time left for filling form<p id="demo"> </p></marquee></div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 25, 2023 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<br>
+        <div class="text-box" style="padding-top: 1000px;">
+            <h1 style="color: orange;">VJTI Hostel Portal</h1>
+            <br>
+            <br>
+            <div id="ur">
+            <h2 style="color: rgb(255, 140, 0);font-size: 50px;text-shadow: #f44336 2px 2px;">You are :</h2>
+            <br>
+            <br>
+            
+            <a class="hero1-btn" ><button id="btn1" onclick="stud1()">Student</button></a>
+            <a class="hero1-btn" ><button id= "btn2" onclick="stud2()">Official</button></a>
+            </div>
+            
+
+
+            <br>
+            <BR>
+        </section>
+        <img src="vjti.jpg" id="vjti" ></img>
+        <div class="wrapper">
+            <div class="backgrond-color">
+                <div class="bg-1"></div>
+                <div class="bg-2"></div>
+            </div>
+            <div class="about-container">
+                <div class="image-container">
+                    <img src="./hostel.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    <h1 id="about">About us</h1>
+                    <p style="font-weight:bold;
+                    color: black;
+                    font-size: 20;">VJTI college provides hostel facilities for B.Tech , M.tech and Diploma students 
+                        The college hostel is fully furnished with all the modern facilities and has an intake of 554 students locate at the Southern end of the campus comprises of 4 blocks named A, B, C and D.
+
+                        The admission in the college hostel is fully based on the merit-cum-need basis and is available only for UG and Diploma students. Preference is given to students residing outside the city of Mumbai. Hostel facility is not available for direct second year diploma as well as post graduate students.
+                        
+                        There are four messes run by students. Hostel fees are based on three seaters, two seaters or single seater including electricity charges. The hostel students' amenities fund and medical charges are payable at the begining of each term.<div class=""></div> </p>
+                    <video width="340"height="200" controls id="vid">
+                        <source src="omvid.mp4"type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+      <script>
+        function stud1(){
+            window.location.assign("http://127.0.0.1:5500/signup.html")
+        }
+        function stud2(){
+            window.location.assign("http://127.0.0.1:5500/officiallogin.html")
+        }
+      </script>
+</body>
+</html>
